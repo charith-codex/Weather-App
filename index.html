@@ -11,11 +11,17 @@
         <div class="header">
             <div class="search-box">
                 <input type="text" placeholder="Enter your location" class="input-box">
-                <button class="fa-solid fa-magnifying-glass"></button>
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
             </div>
         </div>
+
+        <div class="location-not-found">
+            <h1>Location Not Found</h1>
+            <img src="/images/404.png" alt="404 error">
+        </div>
+
         <div class="weather-body">
-            <img src="images/cloud.png" alt="weather image" class="weather-img">
+            <img src="/images/cloud.png" alt="weather image" class="weather-img">
 
             <div class="weather-box">
                 <p class="temperature">0 <sup>°C</sup></p>
@@ -41,7 +47,7 @@
             </div>
         </div>
     </div>
-
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/42c6cb77bd.js" crossorigin="anonymous"></script>
 </body>
 </html>
